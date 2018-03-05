@@ -65,7 +65,7 @@
         			
         		</div>
         		<div class="form-group">
-        			<label>Email id</label>
+        			<label>Email</label>
         			<input class="form-control" type="text" id="email_id" name="email_id" required>
         			
         		</div>
