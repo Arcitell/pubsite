@@ -23,11 +23,12 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/custom-style.css">
 
-	<script type="text/javascript">__sf_config = {
+	<script type="text/javascript">
+__sf_config = {
 customer_id: 97242,
-host: 'www.msgapp.com',
+host: 'marketing.arcitell.com',
 ip_privacy: 0,
-subsite: '',
+subsite: 'fbe88c6f-450a-4d90-b743-7c0ed28cdd47',
 
 __img_path: "/web-next.gif?"
 };
