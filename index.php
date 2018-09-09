@@ -102,9 +102,7 @@
 		<div class="container">
 			<div class="outer">
 				<div class="inner">
-					<a href="https://qoracladding.com/">
-					<img src="images/qora.png" class="logo img-responsive">
-					</a>
+					<a href="https://qoracladding.com" target="_blank"><img src="images/qora.png"></a>
 					<div class="head">
 					<font face="arial black" color="#652121" size="6px"><strong>Trade Up Without Any Trade-Offs</strong></font>
 					<br />
