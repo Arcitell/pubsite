@@ -23,48 +23,13 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/custom-style.css">
 
-	<script type="text/javascript">
-__sf_config = {
-customer_id: 97242,
-host: 'marketing.arcitell.com',
-ip_privacy: 0,
-subsite: 'fbe88c6f-450a-4d90-b743-7c0ed28cdd47',
-
-__img_path: "/web-next.gif?"
-};
-
-(function() {
-var s = function() {
-var e, t;
-var n = 10;
-var r = 0;
-e = document.createElement("script");
-e.type = "text/javascript";
-e.async = true;
-e.src = "//" + __sf_config.host + "/js/frs-next.js";
-t = document.getElementsByTagName("script")[0];
-t.parentNode.insertBefore(e, t);
-var i = function() {
-if (r < n) {
-r++;
-if (typeof frt !== "undefined") {
-frt(__sf_config);
-} else {
-setTimeout(function() { i(); }, 500);
-}
-}
-};
-i();
-};
-if (window.attachEvent) {
-window.attachEvent("onload", s);
-} else {
-window.addEventListener("load", s, false);
-}
-})();
-</script>
 </head>
 <body>
+	<header>
+		<div class="container">
+			<img src="images/bw-logo.png">
+		</div>
+	</header>
 	<!-- Modal -->
 	<div id="videoModal" class="modal fade" role="dialog">
 	  <div class="modal-dialog modal-lg">
@@ -137,13 +102,35 @@ window.addEventListener("load", s, false);
 		<div class="container">
 			<div class="outer">
 				<div class="inner">
-					<img src="images/logo.png" class="logo img-responsive">
-					<p>Our website is coming and so are cost saving, durable, beautiful, lightweight,
-environmentally friendly panels ... follow our progress and learn more...</p>
-<button type="button" data-toggle="modal" data-target="#videoModal"><img src="images/play.png"></button>
+					<a href="https://qoracladding.com/">
+					<img src="images/qora.png" class="logo img-responsive">
+					</a>
+					<div class="head">
+					<font face="arial black" color="#652121" size="6px"><strong>Trade Up Without Any Trade-Offs</strong></font>
+					<br />
+					<br />
+					<font face="arial" color="#652121" size="4px">Indistinguishable from brick, cedar, and stone to the naked eye.</font>
+					<br />
+					<font face="arial" color="#652121" size="4px">Incomparable in overall quality, workability, protection, and value.</font>
+					<br />
+					<br />
+					<font face="arial black" color="#652121" size="3px">Get an edge on your competition with Qora.</font>
+					</div>
+					<button type="button" class="button" href="" data-toggle="modal" data-target="#contactModal">STAY INFORMED</button>
+					<br />
+					
+					<!--<button type="button" data-toggle="modal" data-target="#videoModal"><img src="images/play.png"></button>-->
+				</div>
+				<div class="other">
+					<img src="images/qora-materials.png" class="materials">
+					<br />
+					<!--<button type="button" class="video" data-toggle="modal" data-target="#videoModal"><img src="images/video-poster.png"></button>-->
+					<iframe class ="video" width="985" height="475" 
+						src="video/Arcitell-Is-Coming.ogg">
+					</iframe>
 				</div>
 			</div>
-			<div class="social">
+			<!--<div class="social">
 			<ul>
 					<li><a target="blank" href="https://twitter.com/arcitell"><img src="images/8.png"></a></li>
 					
@@ -157,14 +144,29 @@ environmentally friendly panels ... follow our progress and learn more...</p>
 					<li><a target="blank" href="https://www.youtube.com/channel/UCcHYiB_d869UuzLYmo-wAEg?view_as=subscriber"><img src="images/5.png"></a></li>
 					<!--<li><a target="blank" href=""><img src="images/4.png"></a></li>-->
 
-					<li><a href="" data-toggle="modal" data-target="#contactModal"><img src="images/3.png"></a></li>
+					<!-- <li><a href="" data-toggle="modal" data-target="#contactModal"><img src="images/3.png"></a></li> 
 				</ul>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<footer>
 		<div class="container">
 			<p>© 2013-<?php echo date('Y') ?> Arcitell. All rights reserved. </p>
+			<ul>
+					<li><a target="blank" href="https://twitter.com/arcitell"><img src="images/8.png"></a></li>
+					
+					<li><a target="blank" href="https://www.facebook.com/Arcitell-1998083503554188/"><img src="images/7.png"></a></li>
+					<li><a target="blank" href="https://www.instagram.com/arcitell/"><img src="images/1.png"></a></li>
+
+					<li><a target="blank" href="https://www.linkedin.com/company/10005238/"><img src="images/6.png"></a></li>
+
+					<li><a target="blank" href="https://www.flickr.com/photos/152594000@N05/"><img src="images/2.png"></a></li>
+
+					<li><a target="blank" href="https://www.youtube.com/channel/UCcHYiB_d869UuzLYmo-wAEg?view_as=subscriber"><img src="images/5.png"></a></li>
+					<!--<li><a target="blank" href=""><img src="images/4.png"></a></li>-->
+
+					<!-- <li><a href="" data-toggle="modal" data-target="#contactModal"><img src="images/3.png"></a></li> -->
+				</ul>
 		</div>
 	</footer>
 	<?php
